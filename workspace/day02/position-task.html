@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position 실습</title>
+    <style>
+
+        #ciga {
+            position: absolute;
+            width: 30px;
+            height: 50px;
+            margin-top: 130px;
+            left: 20%;
+        }
+        #human{
+            position: relative;
+            width: 220px;
+            height: 315px;
+            background-image: url("http://koreaitacademy.com/renewal2021/img/tch/teacher007.png");
+            background-size: 100%;
+            background-position: center;
+            margin: 0 auto;
+            
+        }
+
+        #sunglass {
+            position: absolute;
+            left: 15%;
+            margin-top: 65px;
+            width: 110px;
+            z-index: 2;
+
+        }
+        
+        #nosmoke{
+            width: 220px;
+            height: 315px;
+            background-image: url("nosmoke.png");
+            background-size: 100%;
+            background-position: center;
+            margin: 0 auto;
+            
+            
+        }
+      
+  
+    </style>
+</head>
+<body>
+    <div id="human">
+        <div>
+            <img id="ciga" src="image1.png">
+            <img id="sunglass" src="image2.png" >
+            <img id="nosmoke">
+        </div>
+        
+    </div>
+    
+   
+</body>
+</html>
